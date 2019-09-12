@@ -1,0 +1,103 @@
+h2,h3,ul{
+  margin:0px;
+  }
+  
+  html{
+    background-color:#9CC1DC
+    
+  }
+  
+  #container {
+    background-color:#E5B4A6;
+    margin:0 auto;
+    width:960px;
+    
+  }
+  
+  header {
+    background-color: #7F7FA6;
+    display:flex;
+    justify-content:center
+    /*width:500px;*/
+    
+  }
+  
+  
+  #bio{
+   
+    display:flex;
+      
+  }
+  #bio img{
+    width:200px;
+    height:200px;
+  
+  }
+  #bio-details{
+    flex: 1;
+    
+  }
+  #namedate{
+    display: flex;
+    justify-content: space-around;
+      
+  }
+  #dev-list{
+    background-color:#335689;
+    padding:10px;
+    color:#ECE5ED;
+      
+  }
+  #tech{
+    margin-top: 20px;
+    display:flex;
+    justify-content:space-between;
+    
+  }
+  
+  figure {
+    margin:0px;
+    max-width: 180px;
+    display:flex;
+    flex-flow :column;
+    
+  }
+  figure img {
+    max-height:180px;
+    
+  }
+  figcaption {
+    color: #fff;
+    text-align: center;
+    background: rgba(3,3,3,0.5);
+    position:relative;
+    bottom:25px;
+    padding:6px;
+  }
+    
+  
+  h2, h3,time{
+    position:relative;
+    right:0;
+    color:#BA4E95;  
+    
+  }
+  time{
+    
+    font-size:1.5em
+  }
+  li{
+    color:#c6c6c6;
+    
+  }
+  #interest{
+    background-color:#335689;
+    padding:10px;
+    color:#ECE5ED;    
+  }
+  footer{
+    background-color:#7F7FA6;
+    padding:5px;
+    color:#ECE5ED; 
+    text-align:center;
+  }
